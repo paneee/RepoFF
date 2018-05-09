@@ -21,6 +21,28 @@
 		<video_preview></video_preview>
 	</extension>
 	</addon>
+	<addon id="plugin.audio.sportradio" name="SportRadio" version="0.0.1" provider-name="panee">
+	<requires>
+		<import addon="xbmc.python" version="2.19.0" /> 
+		<import addon="script.module.beautifulsoup4" version="4.5.3"/>  
+		<import addon="script.module.feedparser" version="5.1.3"/> 
+		<import addon="script.module.resolveurl" version="5.0.09" />
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="playaudio.py">
+		<provides>audio</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">SportRadio</summary>
+		<description lang="en">SportRadio</description>
+		<platform>all</platform>
+		<forum></forum>
+		<website></website>
+		<news></news>
+		<genre>movies,tvshows,usa</genre>
+		<video_guide></video_guide>
+		<video_preview></video_preview>
+	</extension>
+	</addon>
 	<addon id="plugin.audio.sportradio" name="SportRadio" version="0.0.2" provider-name="panee">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0" /> 
