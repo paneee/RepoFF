@@ -21,7 +21,7 @@
 		<video_preview></video_preview>
 	</extension>
 	</addon>
-	<addon id="plugin.audio.sportradio" name="SportRadio" version="0.0.1" provider-name="panee">
+	<addon id="plugin.audio.sportradio" name="SportRadio" version="0.0.2" provider-name="panee">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0" /> 
 		<import addon="script.module.beautifulsoup4" version="4.5.3"/>  
